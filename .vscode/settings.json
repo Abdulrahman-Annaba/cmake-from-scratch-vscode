@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "CMakeENV": {
+            "path": "bash",
+            "args": ["--init-file", "./.vscode/init.sh"]
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "CMakeENV",
+    "C_Cpp.default.compileCommands": "build/compile_commands.json",
+    "files.associations": {
+        "CMakeLists.txt": "cmake",
+    }
+}
